@@ -205,7 +205,7 @@ body
 	background: url("../img/icons/volume.svg") no-repeat center;
 	background-size: contain;
 	margin: auto;
-    padding: 9px 0px;
+    padding: 0.6em 0em;
 }
 
 .right-float
@@ -220,6 +220,8 @@ body
 	height:15px;
 	background: url("../img/icons/elipsis.svg") no-repeat center;
 	background-size: contain;
+	margin:auto; 
+	padding:0.6em 0em; 
 }
 
 .ex-header

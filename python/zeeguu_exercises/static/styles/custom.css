@@ -184,7 +184,7 @@ body
 	height: 35px;
 	width: 35px;
 	background-color: #F5F5F5;
-	padding: 10px;
+	padding: 0px;
 	border-radius: 50px;
 	cursor: pointer;
 	-webkit-transition: background-color 0.15s ease-out;
@@ -204,6 +204,8 @@ body
 	height:15px;
 	background: url("../img/icons/volume.svg") no-repeat center;
 	background-size: contain;
+	margin: auto;
+    padding: 9px 0px;
 }
 
 .right-float

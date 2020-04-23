@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- Used to separate the concern of drop down menu-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-            crossorigin="anonymous"></script>
-    
     <!-- Add Page Title -->
     <title>Zeeguu Practice</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Add Local styles -->
-    <link rel="stylesheet" href="{{ url_for('ex_blueprint.static',filename='styles/google_fonts.css') }}"
-          type="text/css">
-    <link rel="stylesheet" href="{{ url_for('ex_blueprint.static',filename='styles/bootstrap_mini.css') }}"
-          type="text/css">
+<!-- Add Local styles -->
+<link rel="stylesheet" href="{{ url_for('ex_blueprint.static',filename='styles/google_fonts.css') }}"
+      type="text/css">
 
+
+    <!--Preciously added CSS-->
     <link rel="stylesheet" href="{{ url_for('ex_blueprint.static',filename='styles/custom.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ url_for('ex_blueprint.static',filename='styles/success.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ url_for('ex_blueprint.static',filename='styles/loader.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ url_for('ex_blueprint.static',filename='styles/dropdown.css') }}" type="text/css">
-    <link rel="stylesheet" href="{{ url_for('ex_blueprint.static',filename='styles/sweetalert.css') }}" type="text/css">
+
     <link rel="stylesheet" href="{{ url_for('ex_blueprint.static',filename='styles/responsive.css') }}" type="text/css">
 
+    <!--New CSS-->
+    <link rel="stylesheet" href="{{ url_for('ex_blueprint.static',filename='styles/exercises.css') }}" type="text/css">
+
+    <!--- FONTS-->
+    <link
+    href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+    rel="stylesheet"
+  />
     <!-- Add favicon -->
     <link rel="icon" href="{{ url_for('ex_blueprint.static',filename='img/favicon.png') }}" type="image/x-icon"/>
     <!-- Add External scripts -->
@@ -41,9 +44,6 @@
 </head>
 <body class="home-body">
 
-<a href="http://zeeguu.org">
-    <img width="32" style="margin: 12px" id="zeeguu-logo" src="/static/img/gray-home.png" alt="Home">
-</a>
 
 <div id="main-content">
 </div>

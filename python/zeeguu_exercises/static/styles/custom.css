@@ -183,6 +183,9 @@ body
 {
 	height: 35px;
 	width: 35px;
+	position: relative;
+    top: 6.5em;
+    left: 1em;
 	background-color: #F5F5F5;
 	padding: 0px;
 	border-radius: 50px;
@@ -192,6 +195,14 @@ body
 	-o-transition: background-color 0.15s ease-out;
 	transition: background-color 0.15s ease-out;
 }
+
+#btn-report{
+	position: relative;
+    top: 0em;
+    left: unset;
+    right: 1em;
+}
+
 .round-icon-container:hover
 {
 	background-color: #EEEEEE;
@@ -335,7 +346,7 @@ body
 {
 
 	position: relative;
-	align-items: stretch;
+	display:flex; 
 	height: 100%;
 	width: 100%;
 }
@@ -371,8 +382,10 @@ body
     font-size: 1em;
 	font-family: Montserrat;
     margin-top: 0em;
-    font-weight: 800;
+	font-weight: 800;
+	color:#ffbb54;
 }
+
 
 .ex-content
 {
@@ -391,6 +404,14 @@ body
     margin: auto;
 	width: fit-content;
 	color:#6D6D6D; 
+}
+
+#next-exercise{
+    position: relative;
+    position: inherit;
+    top: 0em;
+    right: 1em;
+    cursor: pointer;
 }
 
 
@@ -425,6 +446,9 @@ body
 {
 	transition: all .9s; 
 	text-align:left; 
+	font-size: 1.5em;
+	margin-top: 0em;
+	padding:0em 1em; 
 }
 
 .ex-clickable
@@ -438,7 +462,8 @@ body
 .clickable-symbol {
 	margin: 15px auto auto;
 	text-align: center;
-    vertical-align:middle;
+	vertical-align:middle;
+	cursor: pointer;
 }
 
 .clickable-symbol-size
@@ -502,14 +527,23 @@ body
 
 .option-btn{
     height: 50px;
-	min-width: 80px;
-	max-width: 175px;	
-	margin-top: 12px;
-	display: inline-block;
-	white-space: normal;
-	text-align: center;
-	text-overflow: ellipsis;
-	overflow:hidden;
+    min-width: 80px;
+    max-width: 175px;
+    margin-top: 12px;
+    display: inline-block;
+    white-space: normal;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border-radius: 21px;
+    border: none;
+    background-color: white;
+    margin-right: 2em;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 0.8em;
+    color: rgba(62, 62, 62, 0.83);
+    cursor: pointer;
 }
 
 .feedback-input

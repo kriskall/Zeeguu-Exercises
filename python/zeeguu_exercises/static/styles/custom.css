@@ -309,13 +309,14 @@ body
 }
 
 .feedback-text-btn {
-	color: #7ca500;
-	font-size: 12px;
-	border:solid #cde786;;
-	background: #def0a5;
+    color: white;
+    font-size: 12px;
+    border: solid white;
+    background: #FFD047
 }
 .feedback-text-btn:hover {
-	color: #7ca500;
+	color:#ffbb54; 
+	background-color: white;
 }
 .secondary-ex-footer-elem:hover
 {
@@ -367,6 +368,8 @@ body
 	display: inline;
 	text-shadow: 0px 0px black;		
 	font-weight: 100;
+	position: relative;
+	top:0.5em; 
 }
 
 #ex-description-container{
@@ -394,7 +397,7 @@ body
 }
 
 .ex3-column-center{
-	margin-right:3em; 
+	margin:auto; 
 }
 
 
@@ -468,6 +471,8 @@ body
 	min-height:75px;
 	text-align: center;
 	padding: 0;
+	position: relative;
+	left:1em; 
 }
 
 .clickable-symbol {
@@ -479,7 +484,7 @@ body
 
 .clickable-symbol-size
 {
-	width: 45px;
+	width: 25px;
     height: 45px;
 }
 

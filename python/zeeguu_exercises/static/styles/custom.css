@@ -181,12 +181,12 @@ body
 
 .round-icon-container
 {
-	height: 35px;
-	width: 35px;
+	height: 40px;
+	width: 40px;
 	position: relative;
     top: 6.5em;
     left: 1em;
-	background-color: #F5F5F5;
+	background-color:unset;
 	padding: 0px;
 	border-radius: 50px;
 	cursor: pointer;
@@ -208,12 +208,14 @@ body
 	background-color: #EEEEEE;
 }
 
+
+
 .sound-icon
 {
 	display:block;
-	width:15px;
-	height:15px;
-	background: url("../img/icons/volume.svg") no-repeat center;
+	width:40px;
+	height:40px;
+	background: url("../img/icons/sound-icon.svg") no-repeat center;
 	background-size: contain;
 	margin: auto;
     padding: 0.6em 0em;
@@ -227,9 +229,9 @@ body
 .btn-more
 {
 	display:block;
-	width:15px;
-	height:15px;
-	background: url("../img/icons/elipsis.svg") no-repeat center;
+	width:40px;
+	height:40px;
+	background: url("../img/icons/settings-dots.svg") no-repeat center;
 	background-size: contain;
 	margin:auto; 
 	padding:0.6em 0em; 
@@ -384,6 +386,15 @@ body
     margin-top: 0em;
 	font-weight: 800;
 	color:#ffbb54;
+}
+
+.exerciseThree{
+	display: flex;
+    justify-content: center;
+}
+
+.ex3-column-center{
+	margin-right:3em; 
 }
 
 

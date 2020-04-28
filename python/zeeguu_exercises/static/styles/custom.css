@@ -195,11 +195,6 @@ body
     right: 1em;
 }
 
-.round-icon-container:hover
-{
-	background-color: #EEEEEE;
-}
-
 
 
 .sound-icon
@@ -275,7 +270,7 @@ body
 	-webkit-border-radius: 24px;
 	-moz-border-radius: 24px;
 	border-radius: 24px;
-	font-family: Arial;
+	font-family: Montserrat;
 	color: #7ca500;
 	font-size: 12px;
 	border:solid #cde786;;
@@ -290,7 +285,7 @@ body
 	color: white;
 	font-size: 12px;
 	border:none;
-	background: #FFD047;
+	background: #ffbb54;
 	font-size: 15px;
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
@@ -300,11 +295,24 @@ body
 
 }
 
+.hint-text-btn{
+	background-color: #eaeaea;
+    color: #6D6D6D;
+	border: solid #fbfbfb;
+}
+
+.hint-text-btn:hover{
+	color:white;  
+	background-color:#ffbb54; 
+}
+
+
+
 .feedback-text-btn {
     color: white;
     font-size: 12px;
     border: solid white;
-    background: #FFD047
+	background: #FFD047; 
 }
 .feedback-text-btn:hover {
 	color:#ffbb54; 
@@ -324,9 +332,11 @@ body
 
 #typo-information
 {
-	text-align: center;
-	font-size: 24px;
-	color: #7ca500;
+    text-align: center;
+    font-size: 24px;
+    color: #ffbb54;
+    font-weight: 700;
+    text-decoration: #6d6d6d underline;
 }
 
 #ex-footer-secondary
@@ -425,23 +435,20 @@ body
 {
 }
 
-.ex3-btn-dark-green, .ex3-btn-dark-green:hover
+.ex3-btn-first, .ex3-btn-second, .ex3-btn-third
 {
-	color: white;
-	background: #7ca500;
+	color: white !important;
+	background: rgba(255, 208, 71, 0.77)!important;
 }
 
-.ex3-btn-medium-green, .ex3-btn-medium-green:hover
-{
-	color: black;
-	background: #adca52;
+.ex3-btn-first, .ex3-btn-second, .ex3-btn-third:hover{
+	color: white !important;
+	background: rgba(255, 208, 71, 0.77)!important;
+	border:solid white !important; 
 }
 
-.ex3-btn-light-green, .ex3-btn-light-green:hover
-{
-	color: black;
-	background: #def0a5;
-}
+
+
 
 .centering
 {
@@ -551,7 +558,15 @@ body
     font-weight: 600;
     font-size: 0.8em;
     color: rgba(62, 62, 62, 0.83);
-    cursor: pointer;
+	cursor: pointer;
+	border:solid white;
+}
+
+.option-btn:hover{
+	background-color: white;
+	color:  #FFBB54;
+	border:solid  #FFBB54; 
+
 }
 
 .feedback-input
@@ -687,7 +702,7 @@ body
 .shakable{
 }
 .wrongAlert{
-	border: solid #FFCC00;
+	border: solid #ffbb54;
 }
 
 @keyframes shake {

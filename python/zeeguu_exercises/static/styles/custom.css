@@ -1,20 +1,11 @@
-@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+
 
 body
 {
-	background-color: #e9e9e9;  
-	transition: all 0.9s;
+	background-color: white !important;  
 	height: 100%;
 }
 
-
-.home-body{
-	background-image: url("../img/star.svg");
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: 100%;
-}
 
 #loader {
     margin: auto; position: absolute; width: 100%; height: 100%;
@@ -154,12 +145,13 @@ body
 	border: 1px solid #009FFF;
 }
 
+/*
 .ex-box-shadow
 {
 	-webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
 	-moz-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
 	box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.3);
-}
+} */
 
 .ex-container
 {
@@ -170,10 +162,9 @@ body
 .ex-form
 {
 	margin: auto;
-	background-color: rgba(255,255,255,1);
+	background-color: rgba(241, 240, 240, 0.28);
     display:flex;
 	border-radius:10px;
-	box-shadow: 0 0 30px rgba(0,0,0,0.08);
 	overflow: hidden;
 	transition: all .5s;
 }
@@ -182,10 +173,13 @@ body
 
 .round-icon-container
 {
-	height: 35px;
-	width: 35px;
-	background-color: #F5F5F5;
-	padding: 10px;
+	height: 40px;
+	width: 40px;
+	position: relative;
+    top: 6.5em;
+    left: 1em;
+	background-color:unset;
+	padding: 0px;
 	border-radius: 50px;
 	cursor: pointer;
 	-webkit-transition: background-color 0.15s ease-out;
@@ -193,18 +187,25 @@ body
 	-o-transition: background-color 0.15s ease-out;
 	transition: background-color 0.15s ease-out;
 }
-.round-icon-container:hover
-{
-	background-color: #EEEEEE;
+
+#btn-report{
+	position: relative;
+    top: 0em;
+    left: unset;
+    right: 1em;
 }
+
+
 
 .sound-icon
 {
 	display:block;
-	width:15px;
-	height:15px;
-	background: url("../img/icons/volume.svg") no-repeat center;
+	width:40px;
+	height:40px;
+	background: url("../img/icons/sound-icon.svg") no-repeat center;
 	background-size: contain;
+	margin: auto;
+    padding: 0.6em 0em;
 }
 
 .right-float
@@ -215,10 +216,12 @@ body
 .btn-more
 {
 	display:block;
-	width:15px;
-	height:15px;
-	background: url("../img/icons/elipsis.svg") no-repeat center;
+	width:40px;
+	height:40px;
+	background: url("../img/icons/settings-dots.svg") no-repeat center;
 	background-size: contain;
+	margin:auto; 
+	padding:0.6em 0em; 
 }
 
 .ex-header
@@ -232,7 +235,7 @@ body
 	bottom: 0;
 	position: relative;
 	clear:both;
-	background-color: #dbdbdb;
+	background-color: rgba(196, 196, 196, 0.31);
 	border-radius: 0px 0px 10px 10px;
 	display: flex;
 } 
@@ -267,7 +270,7 @@ body
 	-webkit-border-radius: 24px;
 	-moz-border-radius: 24px;
 	border-radius: 24px;
-	font-family: Arial;
+	font-family: Montserrat;
 	color: #7ca500;
 	font-size: 12px;
 	border:solid #cde786;;
@@ -282,7 +285,7 @@ body
 	color: white;
 	font-size: 12px;
 	border:none;
-	background: #7ca500;
+	background: #ffbb54;
 	font-size: 15px;
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
@@ -292,18 +295,32 @@ body
 
 }
 
+.hint-text-btn{
+	background-color: #eaeaea;
+    color: #6D6D6D;
+	border: solid #fbfbfb;
+}
+
+.hint-text-btn:hover{
+	color:white;  
+	background-color:#ffbb54; 
+}
+
+
+
 .feedback-text-btn {
-	color: #7ca500;
-	font-size: 12px;
-	border:solid #cde786;;
-	background: #def0a5;
+    color: white;
+    font-size: 12px;
+    border: solid white;
+	background: #FFD047; 
 }
 .feedback-text-btn:hover {
-	color: #7ca500;
+	color:#ffbb54; 
+	background-color: white;
 }
 .secondary-ex-footer-elem:hover
 {
-	background: #cde786;
+	background:rgba(255, 208, 71, 0.77); 
 }
 
 #typo-information-container
@@ -315,9 +332,12 @@ body
 
 #typo-information
 {
-	text-align: center;
-	font-size: 24px;
-	color: #7ca500;
+    text-align: center;
+    font-size: 24px;
+    color: #ffbb54;
+    font-weight: 900;
+	text-decoration: #ffbb54 underline;
+	font-family: Montserrat;
 }
 
 #ex-footer-secondary
@@ -325,14 +345,14 @@ body
 	align-items: stretch;
 	height: 100%;
 	width: 100%;
-	background: #def0a5;
+	background: #FFD047; 
 }
 
 #ex-footer-primary
 {
 
 	position: relative;
-	align-items: stretch;
+	display:flex; 
 	height: 100%;
 	width: 100%;
 }
@@ -351,19 +371,43 @@ body
 	display: inline;
 	text-shadow: 0px 0px black;		
 	font-weight: 100;
+	position: relative;
+	top:0.5em; 
+}
+
+#ex-description-container{
+	position: relative;
+    text-align: center;
+    font-size: 1.8em;
+    font-family: Montserrat;
+    color: black;
 }
 
 #ex-to
 {	
-	font-size: 30px !important;
-	font-weight: 600;
-	display: inline;
+    text-align: center;
+    position: relative;
+    font-size: 1em;
+	font-family: Montserrat;
+    margin-top: 0em;
+	font-weight: 800;
+	color:#ffbb54;
 }
+
+.exerciseThree{
+	display: flex;
+    justify-content: center;
+}
+
+.ex3-column-center{
+	margin:auto; 
+}
+
 
 .ex-content
 {
 	overflow:auto;
-	min-height:300px;
+	min-height:212px;
 	max-height:300px;
 	text-align: justify;
     text-justify: inter-word;
@@ -372,27 +416,40 @@ body
 	clear:both;
 }
 
+.ex-content-box{
+	position: relative;
+    margin: auto;
+	width: fit-content;
+	color:#6D6D6D; 
+}
+
+#next-exercise{
+    position: relative;
+    position: inherit;
+    top: 0em;
+    right: 1em;
+    cursor: pointer;
+}
+
+
 .ex3-content
 {
 }
 
-.ex3-btn-dark-green, .ex3-btn-dark-green:hover
+.ex3-btn-first, .ex3-btn-second, .ex3-btn-third
 {
-	color: white;
-	background: #7ca500;
+	color: white !important;
+	background: rgba(255, 208, 71, 0.77)!important;
 }
 
-.ex3-btn-medium-green, .ex3-btn-medium-green:hover
-{
-	color: black;
-	background: #adca52;
+.ex3-btn-first, .ex3-btn-second, .ex3-btn-third:hover{
+	color: white !important;
+	background: rgba(255, 208, 71, 0.77)!important;
+	border:solid white !important; 
 }
 
-.ex3-btn-light-green, .ex3-btn-light-green:hover
-{
-	color: black;
-	background: #def0a5;
-}
+
+
 
 .centering
 {
@@ -402,6 +459,13 @@ body
 #ex-context
 {
 	transition: all .9s; 
+	text-align:left; 
+	font-size: 1.5em;
+	margin-top: 0em;
+	padding:0em 1em; 
+	font-family: Montserrat;
+	color:black;
+	line-height: 2em;
 }
 
 .ex-clickable
@@ -410,17 +474,20 @@ body
 	min-height:75px;
 	text-align: center;
 	padding: 0;
+	position: relative;
+	left:1em; 
 }
 
 .clickable-symbol {
 	margin: 15px auto auto;
 	text-align: center;
-    vertical-align:middle;
+	vertical-align:middle;
+	cursor: pointer;
 }
 
 .clickable-symbol-size
 {
-	width: 45px;
+	width: 25px;
     height: 45px;
 }
 
@@ -430,7 +497,7 @@ body
     padding: 12px 20px;    
     display: inline-block;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 22px;
     box-sizing: border-box;	
 	margin-top: 15px;
 	text-align: center;
@@ -441,7 +508,7 @@ body
 	position: relative;
 	width: 100%;
 	height: 25px;
-	background-color: #c5c5c5;
+	background-color:rgba(196, 196, 196, 0.42);
 	border-radius: 15px;
 	overflow:hidden;
 }
@@ -449,7 +516,6 @@ body
 {
 	margin: 20px auto 40px;
 	max-width:800px;
-	box-shadow: 0 0 30px rgba(0,0,0,0.08);
 	border-radius: 15px;
 }
 
@@ -457,7 +523,7 @@ body
   position: absolute;
   width: 0%;
   height: 100%;
-  background-image: linear-gradient(to left, #3eb495, #7eb530);
+  background-image:linear-gradient(89.5deg, #FFBB54 0.29%, #FFE59E 101.69%, #FFF85D 101.7%, #FFF95D 101.71%, rgba(255, 208, 71, 0) 101.72%);
   transition: all .5s;
   border-radius: 15px;
 }
@@ -480,14 +546,31 @@ body
 
 .option-btn{
     height: 50px;
-	min-width: 80px;
-	max-width: 175px;	
-	margin-top: 12px;
-	display: inline-block;
-	white-space: normal;
-	text-align: center;
-	text-overflow: ellipsis;
-	overflow:hidden;
+    min-width: 80px;
+    max-width: 175px;
+    margin-top: 12px;
+    display: inline-block;
+    white-space: normal;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border-radius: 21px;
+    border: none;
+    background-color: white;
+    margin-right: 2em;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 0.8em;
+    color: rgba(62, 62, 62, 0.83);
+	cursor: pointer;
+	border:solid white;
+}
+
+.option-btn:hover{
+	background-color: white;
+	color:  #FFBB54;
+	border:solid  #FFBB54; 
+
 }
 
 .feedback-input
@@ -623,7 +706,7 @@ body
 .shakable{
 }
 .wrongAlert{
-	border: solid #FFCC00;
+	border: solid #ffbb54;
 }
 
 @keyframes shake {

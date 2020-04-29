@@ -335,8 +335,9 @@ body
     text-align: center;
     font-size: 24px;
     color: #ffbb54;
-    font-weight: 700;
-    text-decoration: #6d6d6d underline;
+    font-weight: 900;
+	text-decoration: #ffbb54 underline;
+	font-family: Montserrat;
 }
 
 #ex-footer-secondary
@@ -462,6 +463,9 @@ body
 	font-size: 1.5em;
 	margin-top: 0em;
 	padding:0em 1em; 
+	font-family: Montserrat;
+	color:black;
+	line-height: 2em;
 }
 
 .ex-clickable

@@ -2,7 +2,7 @@
 
 body
 {
-	background-color: white !important;  
+	background-color: white !important;
 	height: 100%;
 }
 
@@ -21,7 +21,7 @@ body
 
 
 .home-container
-{	
+{
 	display:block;
 	margin: auto;
 	margin-top: 20px;
@@ -31,8 +31,8 @@ body
     display:flex;
 	box-shadow: 0 0 30px rgba(0,0,0,0.08);
 	overflow: hidden;
-	transition: all .5s; 
-	
+	transition: all .5s;
+
 	border-radius: 10px 10px 10px 10px;
 }
 
@@ -43,7 +43,7 @@ body
 	min-height: 85px;
 	background-color: #0b4176;
 	background-image:  url("../img/star.svg");
-	margin-bottom: 10px;	
+	margin-bottom: 10px;
 	position:relative;
 	border-radius: 10px 10px 0px 0px;
 }
@@ -65,10 +65,10 @@ body
 
 .home-footer
 {
-	margin-top: 10px;	
+	margin-top: 10px;
 	bottom: 0;
 	position: relative;
-	min-height: 50px;	
+	min-height: 50px;
 	clear:both;
 	display:block;
 	position: relative;
@@ -85,7 +85,7 @@ body
 .home-btn
 {
 	width: 100%;
-	min-height: 200px;	
+	min-height: 200px;
 	display:block;
 	margin: auto;
 	background-color: rgba(255,255,255,1);
@@ -93,7 +93,7 @@ body
 	box-shadow: 0 0 30px rgba(0,0,0,0.08);
     border-radius: 10px;
 	overflow: hidden;
-	transition: all .5s; 
+	transition: all .5s;
 	cursor: pointer;
 	margin: 5px;
 	padding: 0px 10px 10px 10px;
@@ -220,13 +220,13 @@ body
 	height:40px;
 	background: url("../img/icons/settings-dots.svg") no-repeat center;
 	background-size: contain;
-	margin:auto; 
-	padding:0.6em 0em; 
+	margin:auto;
+	padding:0.6em 0em;
 }
 
 .ex-header
-{	
-	
+{
+
 }
 
 
@@ -238,7 +238,7 @@ body
 	background-color: rgba(196, 196, 196, 0.31);
 	border-radius: 0px 0px 10px 10px;
 	display: flex;
-} 
+}
 
 .ex-footer-elem
 {
@@ -302,8 +302,8 @@ body
 }
 
 .hint-text-btn:hover{
-	color:white;  
-	background-color:#ffbb54; 
+	color:white;
+	background-color:#ffbb54;
 }
 
 
@@ -312,15 +312,15 @@ body
     color: white;
     font-size: 12px;
     border: solid white;
-	background: #FFD047; 
+	background: #FFD047;
 }
 .feedback-text-btn:hover {
-	color:#ffbb54; 
+	color:#ffbb54;
 	background-color: white;
 }
 .secondary-ex-footer-elem:hover
 {
-	background:rgba(255, 208, 71, 0.77); 
+	background:rgba(255, 208, 71, 0.77);
 }
 
 #typo-information-container
@@ -345,14 +345,14 @@ body
 	align-items: stretch;
 	height: 100%;
 	width: 100%;
-	background: #FFD047; 
+	background: #FFD047;
 }
 
 #ex-footer-primary
 {
 
 	position: relative;
-	display:flex; 
+	display:flex;
 	height: 100%;
 	width: 100%;
 }
@@ -369,10 +369,10 @@ body
 #ex-descript
 {
 	display: inline;
-	text-shadow: 0px 0px black;		
+	text-shadow: 0px 0px black;
 	font-weight: 100;
 	position: relative;
-	top:0.5em; 
+	top:0.5em;
 }
 
 #ex-description-container{
@@ -384,7 +384,7 @@ body
 }
 
 #ex-to
-{	
+{
     text-align: center;
     position: relative;
     font-size: 1em;
@@ -400,7 +400,7 @@ body
 }
 
 .ex3-column-center{
-	margin:auto; 
+	margin:auto;
 }
 
 
@@ -420,7 +420,7 @@ body
 	position: relative;
     margin: auto;
 	width: fit-content;
-	color:#6D6D6D; 
+	color:#6D6D6D;
 }
 
 #next-exercise{
@@ -445,7 +445,7 @@ body
 .ex3-btn-first, .ex3-btn-second, .ex3-btn-third:hover{
 	color: white !important;
 	background: rgba(255, 208, 71, 0.77)!important;
-	border:solid white !important; 
+	border:solid white !important;
 }
 
 
@@ -458,11 +458,11 @@ body
 
 #ex-context
 {
-	transition: all .9s; 
-	text-align:left; 
+	transition: all .9s;
+	text-align:left;
 	font-size: 1.5em;
 	margin-top: 0em;
-	padding:0em 1em; 
+	padding:0em 1em;
 	font-family: Montserrat;
 	color:black;
 	line-height: 2em;
@@ -475,7 +475,7 @@ body
 	text-align: center;
 	padding: 0;
 	position: relative;
-	left:1em; 
+	left:1em;
 }
 
 .clickable-symbol {
@@ -494,11 +494,11 @@ body
 .ex-input-box
 {
 	width: 100%;
-    padding: 12px 20px;    
+    padding: 12px 20px;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 22px;
-    box-sizing: border-box;	
+    box-sizing: border-box;
 	margin-top: 15px;
 	text-align: center;
 	font: 16px arial,sans-serif;
@@ -532,7 +532,7 @@ body
 	height: 60px;
 }
 #ex-status-container{
-	
+
 }
 
 #ex-progress-label {
@@ -569,7 +569,7 @@ body
 .option-btn:hover{
 	background-color: white;
 	color:  #FFBB54;
-	border:solid  #FFBB54; 
+	border:solid  #FFBB54;
 
 }
 
@@ -603,7 +603,7 @@ body
 
 #footnotes a
 {
-	cursor:pointer;	
+	cursor:pointer;
 	color: #BDBDBD;
 }
 

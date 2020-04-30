@@ -21,7 +21,7 @@
 /** Starter screen styles  */
 #starter-body {
   height: 100vh;
-  padding-left: 175px;
+  padding-left: 11em;
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -64,7 +64,6 @@
   display: block;
   position: relative;
 }
-
 .starter-btn {
   width: 20em;
   height: 20em;
@@ -158,4 +157,8 @@
 
 .info {
   font-size: 0.8em;
+}
+
+#footnotes {
+  padding-left: 5em;
 }

@@ -527,6 +527,7 @@ body {
 }
 
 #footnotes {
+  padding-left: 5em;
   color: #bdbdbd;
   bottom: 0;
   width: 100%;

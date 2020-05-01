@@ -147,20 +147,12 @@ body {
   transition: all 0.5s;
 }
 
-.round-icon-container {
-  height: 40px;
-  width: 40px;
-  position: relative;
-  top: 6.5em;
-  left: 1em;
-  background-color: unset;
-  padding: 0px;
-  border-radius: 50px;
-  cursor: pointer;
-  -webkit-transition: background-color 0.15s ease-out;
-  -moz-transition: background-color 0.15s ease-out;
-  -o-transition: background-color 0.15s ease-out;
-  transition: background-color 0.15s ease-out;
+.icon-container {
+    cursor: pointer;
+    position: inherit;
+    top: 0em;
+    right: 6em;
+    cursor: pointer;
 }
 
 #btn-report {
@@ -170,15 +162,27 @@ body {
   right: 1em;
 }
 
+.sound-icon-text-btn{
+  background: white;
+  border: solid white;
+  color: #ffd047
+}
+
+.sound-img{
+  vertical-align: middle;
+}
+
+/*
 .sound-icon {
   display: block;
   width: 40px;
   height: 40px;
-  background: url("../img/icons/sound-icon.svg") no-repeat center;
+  background: url("../img/icons/white-volume.svg") no-repeat center;
   background-size: contain;
   margin: auto;
   padding: 0.6em 0em;
 }
+*/
 
 .right-float {
   float: right;
@@ -230,10 +234,7 @@ body {
   -moz-border-radius: 24px;
   border-radius: 24px;
   font-family: Montserrat;
-  color: #7ca500;
   font-size: 12px;
-  border: solid #cde786;
-  background: #def0a5;
   padding: 10px 20px 10px 20px;
   font-weight: bold;
   text-decoration: none;
@@ -378,12 +379,33 @@ body {
 .ex3-content {
 }
 
+.ex3-btn-first, .ex3-btn-first:hover{
+  background-color: #ffbb54 !important;
+  color:rgba(62, 62, 62, 0.83) !important;
+  border:white !important;
+}
+
+.ex3-btn-second, .ex3-btn-second:hover{
+  background-color: #ffbb54cc !important;
+  color:rgba(62, 62, 62, 0.83) !important;
+  border:white !important;
+}
+
+.ex3-btn-third, .ex3-btn-third:hover{
+  background-color: #ffbb5499 !important; 
+  color:rgba(62, 62, 62, 0.83) !important;
+  border:white !important;
+}
+
+
+/*
+
 .ex3-btn-first,
 .ex3-btn-second,
 .ex3-btn-third {
   color: white !important;
   background: rgba(255, 208, 71, 0.77) !important;
-}
+} 
 
 .ex3-btn-first,
 .ex3-btn-second,
@@ -391,7 +413,7 @@ body {
   color: white !important;
   background: rgba(255, 208, 71, 0.77) !important;
   border: solid white !important;
-}
+} */ 
 
 .centering {
   text-align: center;

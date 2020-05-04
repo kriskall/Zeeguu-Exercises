@@ -3,6 +3,11 @@ body {
   height: 100%;
 }
 
+
+#ex-module{
+  margin-left: 12.5em; 
+}
+
 #loader {
   margin: auto;
   position: absolute;

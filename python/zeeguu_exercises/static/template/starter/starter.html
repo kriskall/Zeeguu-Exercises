@@ -1,5 +1,20 @@
 <!--Home page-->
 
+<script>
+  $(document).ready(function () {
+    $(".starter-btn").hover(
+      function () {
+        $(".words").fadeIn().css("display", "block");
+        $(".info").fadeIn().css("display", "block");
+      },
+      function () {
+        $(".words").css("display", "none");
+        $(".info").css("display", "none");
+      }
+    );
+  });
+</script>
+
 <div id="starter-body">
   <div class="starter-header">
     <div>

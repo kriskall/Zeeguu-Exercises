@@ -526,23 +526,6 @@ body {
   outline-style: none;
 }
 
-#footnotes {
-  padding-left: 5em;
-  color: #bdbdbd;
-  bottom: 0;
-  width: 100%;
-  position: absolute;
-  right: 0;
-  left: 0;
-  margin: 10px auto;
-  text-align: center;
-}
-
-#footnotes a {
-  cursor: pointer;
-  color: #bdbdbd;
-}
-
 .emoji-icon {
   display: inline-block;
   height: 25px;

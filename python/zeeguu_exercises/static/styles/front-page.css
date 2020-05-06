@@ -84,6 +84,7 @@
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5);
+  box-shadow: 0 0 5px #9e9e9e;
 }
 
 .starter-btn-header-level1 {

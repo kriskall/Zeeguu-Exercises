@@ -67,10 +67,10 @@
 
     <!-- New responsive css-->
     <link
-    rel="stylesheet"
-    href="{{ url_for('ex_blueprint.static',filename='styles/responsive-exercise.css') }}"
-    type="text/css"
-  />
+      rel="stylesheet"
+      href="{{ url_for('ex_blueprint.static',filename='styles/responsive-exercise.css') }}"
+      type="text/css"
+    />
 
     <!-- Add favicon -->
     <link
@@ -99,18 +99,19 @@
     {% include "sideBar.html" %}
     <div id="main-content"></div>
 
-    <!-- HTML that enables the loading page to show loader-->
+    <!-- HTML that enables the loading page to show loader
+      
     <div id="loader" class="hide">
       <div class="spinner">
         <div class="double-bounce1"></div>
         <div class="double-bounce2"></div>
       </div>
-    </div>
+    </div>-->
 
     <!-- Add Local main script -->
     <script src="{{ url_for('ex_blueprint.static',filename='js/dist/appEntry.entry.js') }}"></script>
   </body>
 
   <!-- Add script for starter -->
-  <script src="{{ url_for('ex_blueprint.static',filename='practice/static/javascript/app/starter_page.js') }}"></script>
+  <script src="{{ url_for('ex_blueprint.static',filename='javascript/app/starter_page.js') }}"></script>
 </html>

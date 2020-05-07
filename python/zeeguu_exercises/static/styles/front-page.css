@@ -127,7 +127,7 @@
   justify-content: center;
 }
 
-.exercises-row {
+.exercises_row {
   display: flex;
   width: 100%;
   margin: auto;
@@ -201,7 +201,7 @@
     margin-bottom: 0.5em;
   }
 
-  .row {
+  .exercises_row {
     flex-direction: column;
     padding-top: 0;
   }

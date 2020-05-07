@@ -3,9 +3,8 @@ body {
   height: 100%;
 }
 
-
-#ex-module{
-  margin-left: 12.5em; 
+#ex-module {
+  margin-left: 12.5em;
 }
 
 #loader {
@@ -142,11 +141,11 @@ body {
 }
 
 .icon-container {
-    cursor: pointer;
-    position: inherit;
-    top: 0em;
-    right: 6em;
-    cursor: pointer;
+  cursor: pointer;
+  position: inherit;
+  top: 0em;
+  right: 6em;
+  cursor: pointer;
 }
 
 #btn-report {
@@ -156,14 +155,15 @@ body {
   right: 1em;
 }
 
-.sound-icon-text-btn{
+.sound-icon-text-btn {
   background: white;
   border: solid white;
-  color: #ffd047
+  color: #ffd047;
 }
 
-.sound-img{
+.sound-img {
   vertical-align: middle;
+  width: 2em;
 }
 
 /*
@@ -373,24 +373,26 @@ body {
 .ex3-content {
 }
 
-.ex3-btn-first, .ex3-btn-first:hover{
+.ex3-btn-first,
+.ex3-btn-first:hover {
   background-color: #ffbb54 !important;
-  color:rgba(62, 62, 62, 0.83) !important;
-  border:white !important;
+  color: rgba(62, 62, 62, 0.83) !important;
+  border: white !important;
 }
 
-.ex3-btn-second, .ex3-btn-second:hover{
+.ex3-btn-second,
+.ex3-btn-second:hover {
   background-color: #ffbb54cc !important;
-  color:rgba(62, 62, 62, 0.83) !important;
-  border:white !important;
+  color: rgba(62, 62, 62, 0.83) !important;
+  border: white !important;
 }
 
-.ex3-btn-third, .ex3-btn-third:hover{
-  background-color: #ffbb5499 !important; 
-  color:rgba(62, 62, 62, 0.83) !important;
-  border:white !important;
+.ex3-btn-third,
+.ex3-btn-third:hover {
+  background-color: #ffbb5499 !important;
+  color: rgba(62, 62, 62, 0.83) !important;
+  border: white !important;
 }
-
 
 /*
 
@@ -407,10 +409,46 @@ body {
   color: white !important;
   background: rgba(255, 208, 71, 0.77) !important;
   border: solid white !important;
-} */ 
+} */
 
 .centering {
   text-align: center;
+}
+
+/** Shake animation*/
+.shake {
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+.shakable {
+}
+.wrongAlert {
+  border: solid #ffbb54;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
 }
 
 #ex-context {
@@ -490,6 +528,7 @@ body {
 #ex-status {
   height: 60px;
 }
+
 #ex-status-container {
 }
 
@@ -498,6 +537,7 @@ body {
   line-height: 30px;
   color: white;
 }
+
 .clickable-text {
   cursor: pointer;
 }

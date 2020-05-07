@@ -21,7 +21,7 @@
 /** Starter screen styles  */
 #starter-body {
   height: 100vh;
-  padding-left: 175px;
+  padding-left: 11em;
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -42,6 +42,7 @@
   margin-bottom: 10px;
   position: relative;
 }
+
 .starter-header-text {
   margin: auto;
   width: 100%;
@@ -52,8 +53,6 @@
 .starter-content {
   height: 300px;
   margin-top: 50px;
-
-  font-family: "Open Sans Condensed", sans-serif;
 }
 
 .starter-footer {
@@ -64,10 +63,9 @@
   display: block;
   position: relative;
 }
-
 .starter-btn {
-  width: 20em;
-  height: 20em;
+  width: 20vw;
+  height: 20vw;
   display: block;
   margin: 10px auto;
   background-color: #ffbb54;
@@ -79,13 +77,21 @@
   padding: 0;
   border-style: none;
   white-space: normal;
+  transition: transform 0.2s;
+}
+
+.starter-btn:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+  box-shadow: 0 0 5px #9e9e9e;
 }
 
 .starter-btn-header-level1 {
   background: linear-gradient(
     25deg,
-    rgba(255, 187, 84, 1) 35%,
-    rgba(253, 225, 182, 1) 100%
+    rgba(255, 208, 71, 1) 35%,
+    rgb(248, 226, 160) 100%
   );
 }
 
@@ -100,14 +106,16 @@
 .starter-btn-header-level3 {
   background: linear-gradient(
     25deg,
-    rgba(255, 187, 84, 1) 35%,
-    rgba(253, 225, 182, 1) 100%
+    rgba(255, 153, 0, 1) 35%,
+    rgb(253, 207, 139) 100%
   );
 }
 
 .exercises-circles-container {
   display: flex;
+  flex-direction: row;
   width: 100%;
+  max-width: 800px;
   text-align: center;
   margin: auto;
 }
@@ -149,13 +157,72 @@
 }
 
 .name {
-  font-size: 2em;
+  font-size: 1.7em;
 }
 
 .words {
+  display: none;
   font-size: 1em;
 }
 
 .info {
+  display: none;
   font-size: 0.8em;
+}
+
+#footnotes {
+  padding-left: 5em;
+  color: #bdbdbd;
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: 10px auto;
+  text-align: center;
+}
+
+#footnotes a {
+  cursor: pointer;
+  color: #bdbdbd;
+}
+
+@media screen and (max-width: 500px) {
+  .starter-header {
+    color: white;
+    min-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+
+  .exercieses-title {
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+
+  .row {
+    flex-direction: column;
+    padding-top: 0;
+  }
+
+  .starter-btn {
+    width: 50vw;
+    height: 50vw;
+  }
+
+  .exercises-cirle {
+    margin: auto;
+  }
+
+  .name {
+    font-size: 1.3em;
+  }
+
+  #footnotes {
+    padding-left: 3em;
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+  }
 }

@@ -1,0 +1,56 @@
+@media (max-width: 500px){
+    .home-body{
+        height: 100vh;
+        width: 100%;
+        margin: 0;
+        background-color: #f8f7f7 !important;
+        position: fixed;
+    }
+
+    
+    #ex-description-container{
+        position: relative;
+        text-align: center;
+        font-size: 6vw;
+        font-family: Montserrat;
+        color: black;
+        top: 1em;
+        text-align: center;
+        padding: 0em 2em;
+    }
+
+    
+    .ex-content{
+        overflow: auto;
+        min-height: fit-content;
+        max-height: fit-content;
+        text-align: left;
+        text-justify: inter-word;
+        padding: 1em 1em;
+        clear: both;
+        font-size: 5vw;
+    }
+
+    .ex-footer{
+        border-radius: 0;
+        position: absolute;
+        overflow: hidden;
+    }
+
+    #btn-speak{
+        left:36vw; 
+        right:unset; 
+    }
+
+    #ex-footer-primary{
+        font-size: 0px;
+        width:100vw; 
+    }
+    
+    #ex-context{
+        line-height: 1.8em;
+        font-size: 1.2em; 
+    }
+
+
+}

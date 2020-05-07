@@ -4,6 +4,16 @@ html {
   height: 100%;
 }
 
+#emptyPage {
+  margin-left: 5em;
+}
+
+#gooAnimation {
+  padding-top: 10em;
+  padding-left: 5em;
+  position: inherit;
+}
+
 .empty-page-content {
   margin: auto;
   display: flex;
@@ -40,7 +50,7 @@ span {
 .animation_container {
   width: 7em;
   height: 7em;
-  position: absolute;
+  position: inherit;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);

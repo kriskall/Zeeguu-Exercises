@@ -492,7 +492,7 @@ body {
   box-sizing: border-box;
   margin-top: 15px;
   text-align: center;
-  font: 16px arial, sans-serif;
+  font: 16px Montserrat;
 }
 
 .ex-progress {
@@ -542,6 +542,10 @@ body {
   cursor: pointer;
 }
 
+.clickable-text b {
+  color: #ffbb54;
+}
+
 .option-btn {
   height: 50px;
   min-width: 80px;
@@ -558,6 +562,7 @@ body {
   margin-right: 2em;
   font-family: Montserrat;
   font-weight: 600;
+  font-size: 0.8em;
   color: rgba(62, 62, 62, 0.83);
   cursor: pointer;
   border: solid white;

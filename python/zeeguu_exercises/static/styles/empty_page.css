@@ -5,7 +5,7 @@ html {
 }
 
 #emptyPage {
-  margin-left: 5em;
+  margin-left: 9em;
 }
 
 #gooAnimation {
@@ -38,6 +38,7 @@ span {
 .empty-page-title {
   color: #000000;
   font-size: 1.3em;
+  margin: auto;
 }
 
 .empty-page-info {
@@ -152,3 +153,19 @@ span {
     transform: translate(-50%, -50%) rotate(360deg);
   }
 }
+
+@media (max-width: 800px) { 
+
+  .empty-page-title {
+    width: 84vw;
+
+  }
+
+  .empty-page-info {
+    font-size: 0.9em;
+    margin: 0.6em;
+  }
+
+}
+
+

@@ -1,12 +1,20 @@
 @media (max-width: 500px){
     .home-body{
-        height: 100vh;
+       height: 100%; 
         width: 100%;
         margin: 0;
         background-color: #f8f7f7 !important;
-        position: fixed;
+       /* position: fixed; */ 
+      /* position: absolute;*/
+        overflow:hidden !important;
+    
+     position: absolute;
+      
     }
 
+    .clickable-text{
+        cursor: pointer;
+    }
     
     #ex-description-container{
         position: relative;
@@ -21,7 +29,7 @@
 
     
     .ex-content{
-        overflow: auto;
+       /* overflow: auto; */
         min-height: fit-content;
         max-height: fit-content;
         text-align: left;
@@ -33,23 +41,31 @@
 
     .ex-footer{
         border-radius: 0;
-        position: absolute;
+        position: absolute; 
         overflow: hidden;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        width: 100%;
+        left: 0em;
     }
 
+    .fluid{
+        height:100vh; 
+    }
     #btn-speak{
         left:36vw; 
         right:unset; 
     }
 
     #ex-footer-primary{
-        font-size: 0px;
+        font-size: small;
         width:100vw; 
+        position: initial;
     }
     
     #ex-context{
         line-height: 1.8em;
-        font-size: 1.2em; 
+        font-size: large; 
     }
 
 

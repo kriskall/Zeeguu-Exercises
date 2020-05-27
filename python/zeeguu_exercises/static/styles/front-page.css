@@ -4,12 +4,13 @@
 }
 
 .exercieses-title {
-  color: #000000;
+  color: black;
   padding-top: 0.3em;
+  font-family: Montserrat;
   font-weight: 100;
   font-size: 2.5em;
   line-height: 1.5em;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.2em;
   display: flex;
   align-items: center;
   text-align: center;
@@ -21,6 +22,7 @@
 /** Starter screen styles  */
 #starter-body {
   height: 100vh;
+  overflow: scroll;
   padding-left: 11em;
   display: flex;
   flex-direction: column;
@@ -204,6 +206,11 @@
   .exercises_row {
     flex-direction: column;
     padding-top: 0;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    overflow: scroll;
+    align-items: center;
+    justify-content: flex-end;
   }
 
   .starter-btn {
@@ -220,9 +227,6 @@
   }
 
   #footnotes {
-    padding-left: 3em;
-    bottom: 0;
-    position: absolute;
-    text-align: center;
+    display: none;
   }
 }

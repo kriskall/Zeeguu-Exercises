@@ -5021,10 +5021,10 @@
                                         }
                                       },
                                       "extra": {
-                                        "rawValue": "<div type = \"button\" value = {{val}} class = \"btn btn-default btn-feedback-option\">",
-                                        "raw": "'<div type = \"button\" value = {{val}} class = \"btn btn-default btn-feedback-option\">'"
+                                        "rawValue": "<div type = \"button\" value = {{val}} class = \"btn btn-standard btn-feedback-option\">",
+                                        "raw": "'<div type = \"button\" value = {{val}} class = \"btn btn-standard btn-feedback-option\">'"
                                       },
-                                      "value": "<div type = \"button\" value = {{val}} class = \"btn btn-default btn-feedback-option\">"
+                                      "value": "<div type = \"button\" value = {{val}} class = \"btn btn-standard btn-feedback-option\">"
                                     }
                                   },
                                   "operator": "+",
@@ -15896,7 +15896,7 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "<div type = \"button\" value = {{val}} class = \"btn btn-default btn-feedback-option\">",
+      "value": "<div type = \"button\" value = {{val}} class = \"btn btn-standard btn-feedback-option\">",
       "start": 3423,
       "end": 3508,
       "loc": {

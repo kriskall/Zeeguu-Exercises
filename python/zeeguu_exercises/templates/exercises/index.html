@@ -6,7 +6,7 @@
 
     <!-- Add Page Title -->
     <title>Zeeguu Practice</title>
-    <meta name="viewport" content="width=device-width, height=device-height">
+    <meta name="viewport" content="width=device-width, height=device-height" />
 
     <!--FONT LINK-->
     <link
@@ -42,7 +42,7 @@
       href="{{ url_for('ex_blueprint.static',filename='styles/loader.css') }}"
       type="text/css"
     />
-  
+
     <link
       rel="stylesheet"
       href="{{ url_for('ex_blueprint.static',filename='styles/sweetalert.css') }}"
@@ -61,7 +61,11 @@
       type="text/css"
     />
 
-  
+    <!-- Script -->
+    <script
+      type="text/javascript"
+      src="{{ url_for('reader_blueprint.static',filename='scripts/app/helpers/MobileHelpers.js') }}"
+    ></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
@@ -78,10 +82,9 @@
       gtag("config", "UA-89557275-2");
     </script>
   </head>
-  <body class="home-body">
+  <body class="home-body" onload="sideBarLoad()">
     {% include "sideBar.html" %}
     <div id="main-content"></div>
-
 
     <!-- Add Local main script -->
     <script src="{{ url_for('ex_blueprint.static',filename='js/dist/appEntry.entry.js') }}"></script>

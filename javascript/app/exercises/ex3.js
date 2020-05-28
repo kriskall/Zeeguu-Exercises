@@ -82,7 +82,7 @@ function Ex3(data,index,size){
 	this.successDisableBtn = function(btnID){
 		var elem = $("#btn"+btnID);
 		elem.prop('disabled', true);
-		elem.removeClass("btn-default");
+		elem.removeClass("btn-standard");
 		
 		// Determine success button colour by number of correct answers
 		switch (this.correctAnswers) {

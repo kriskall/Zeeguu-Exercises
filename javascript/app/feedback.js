@@ -107,7 +107,7 @@ export default class Feedback {
         };
         let preOptionTemplate =
             '{{#Options}}' +
-            '<div type = "button" value = {{val}} class = "btn btn-default btn-feedback-option">' +
+            '<div type = "button" value = {{val}} class = "btn btn-standard btn-feedback-option">' +
             '<div class = "emoji-icon"  value = {{val}} style = "background-image: url({{icon}});" ></div>' +
             '<span value = {{val}}>{{name}}</span>' +
             '</div>' +

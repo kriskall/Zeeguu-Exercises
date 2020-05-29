@@ -40,7 +40,17 @@
   }
 }
 
+@media (max-width: 500px) {
+
+  #ex-module {
+    margin-left: 0em
+  }
+  
+}
+
+  
 @media (max-width: 400px) {
+
   .responsive-btn {
     font-size: 12px;
     padding: 10px 10px;

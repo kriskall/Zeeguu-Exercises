@@ -46,12 +46,15 @@
 
 </head>
 
-<body onload="sideBarLoad()" class="home-body">
+<body  class="home-body">
   {% include "sideBar.html" %}
   <div id="main-content"></div>
 
   <!-- Add Local main script -->
   <script src="{{ url_for('ex_blueprint.static',filename='js/dist/appEntry.entry.js') }}"></script>
+  <script>
+    sideBarLoad('main-content');  
+  </script>
 </body>
 
 </html>

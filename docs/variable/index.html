@@ -11,7 +11,18 @@
   
   <script src="script/manual.js"></script>
 </head>
-<body class="layout-container" data-ice="rootContainer">
+<body class="layout-container" data-ice="rootContainer" onload="sideBarLoad()">
+  <script>
+    function sideBarLoad() {
+    var wi = window.outerWidth;
+    var nav = document.getElementById("myTopnav");
+    if (wi < 600) {
+        nav.style.display = 'none';
+        document.getElementById("arrow-p").className = 'arrow-none-block';
+        document.getElementById('main-containerID').style.cssText = 'margin:0px;';
+    }
+}
+  </script>
 
 <header>
   <a href="./">Home</a>

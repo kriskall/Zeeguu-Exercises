@@ -93,6 +93,15 @@
     }
 
     @media (max-width: 500px){
+
+        .ex-clickable {
+            left: 0.3em;
+        }
+
+        .home-body {
+            position: fixed;
+        }
+
         #starter-body{
             padding:unset;
         }
@@ -100,10 +109,28 @@
         .exercises-circles-container{
             margin-top:-9vh; 
         }
+
+        .ellipsis {
+            text-overflow: ellipsis;
+            margin: auto;
+        }
+
+        .ex3-column-center {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        }
+
     }
     @media (max-width: 420px){
+
+
+        #ex-descript {
+            font-size: 0.85em;
+        }
+
         #ex-to {
-         margin-top: 0em; 
+            margin-top: -2em;
         }
 
 
